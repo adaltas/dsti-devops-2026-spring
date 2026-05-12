@@ -205,7 +205,9 @@ Also, this command will add a dependency to your `package.json` like:
     "express": "^4.17.1"
   }
 ...
-```
+```  
+
+**NOTE:** The actual express version in `package.json` will reflect the most recent version of express and no manual edits will be needed.  
 
 It is a Node.js (actually NPM) "feature" to let developers install all the necessary packages for the current project using just one single command, instead of installing each package repeating such a command like `npm install PACKAGE_NAME`. You can experiment with it by removing the entire `node_modules` folder and running the `npm install` command.
 
